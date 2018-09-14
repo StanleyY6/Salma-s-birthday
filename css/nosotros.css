@@ -1,0 +1,46 @@
+.nosotrosbody{
+    margin-top: 60px;
+}
+
+#titulo{
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.nosotrosbody p{
+    text-align: center;
+    padding: 10px;
+}
+#felicidades{
+    text-align: center;
+    padding-top: 20px;
+    color: red;
+}
+
+@media (min-width: 480px){
+    .nosotrosbody #felicidades{
+        font-size: 28px;
+    }
+    .nosotrosbody p, strong{
+        font-size: 20px;
+    }
+}
+@media (min-width:1024px){
+    .nosotrosbody{
+        width: 85%;
+        margin: auto;
+    }
+    .nosotrosbody p, #titulo{
+        width: 85%;
+        margin: auto;
+        padding: 30px;
+        font-size: 22px;
+    }
+    #felicidades{
+        margin-top: 60px;
+        text-align: center;
+        padding-top: 20px;
+        color: #000;
+
+    }
+}

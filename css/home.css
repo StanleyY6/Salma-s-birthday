@@ -1,0 +1,80 @@
+.texto1{
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 95%;
+    font-family: monospace;
+}
+.texto1 p, cite{
+    font-size:16px;
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ footer .container{
+     background: #333;
+     width: 100%;
+     margin-top: 20px;
+     height:60px;
+     text-align: center;
+     padding-top: 10px;
+     flex-wrap: wrap;
+     color: #fff;
+ }
+ footer a{
+     width: 100%;
+     color: blue;
+     font-size: 20px;
+     text-align: center; 
+     margin-top: 10px;
+ }
+ .texto1 h1{
+     padding-bottom: 12px;
+ }
+@media (min-width: 480px){
+    .texto1{
+        height: 700px;
+    }
+    .texto1 p, cite{
+        font-size: 20px;
+    }
+    .texto1 h1{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    .contenedor .titulo{
+        color:#eaea;
+        float:left;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 25px;
+     }
+}
+
+@media (min-width:1024px){
+    .texto1 h1{
+        margin-top: 60px;
+        text-align: center;
+        padding-top: 20px;
+        color: #000;
+        font-size: 28px;
+
+    }
+    .texto1{
+        width: 85%;
+        margin: auto;
+    }
+    .texto1 p{
+        width: 85%;
+        margin: auto;
+        padding: 30px;
+        font-size: 22px;
+    }
+    .texto1 cite{
+        width: 300px;
+        margin: auto;
+        padding: 30px;
+        font-size: 22px;
+    }
+}   
