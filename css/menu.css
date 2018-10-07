@@ -3,6 +3,9 @@
     float: right;
 
 }
+header  {
+    background: #800000;
+}
 header  label{
     float: right;
     font-size: 28px;
@@ -21,16 +24,20 @@ header  label{
     transform: translateX(-100%);
     width: 100%;
     height: 100vh;
-    background: rgba(51,51,51,0.9)
+    background: rgba(128, 0, 0,.8);
     
 }
 .navegacion a{
     display: block;
     color: #fff;
     text-decoration: none;
-    height: 50px;
+    font-size: 20px;
+    height: 80px;
     padding: 10px;
     border-bottom: 3px solid rgba(255,255,255,0.3);
+}
+.contenedor .titulo{
+    color:#fff;
 }
 .navegacion a:hover{
     background: rgba(255,255,255,0.3);
@@ -46,8 +53,9 @@ header  label{
     transform: translateX(0%);
     float: right;
     display: flex;
-    padding: 5px;
     margin-right: AUTO;
+    padding: 6px;
+    height: 60px;
     }
     header .fas{
         display: none;
@@ -57,7 +65,7 @@ header  label{
         margin-right: 10px;
     }
     .contenedor .titulo{
-        color:#eaea;
+        color:#fff;
         float:left;
         margin-top: 15px;
         margin-left: 15px;
