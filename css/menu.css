@@ -1,7 +1,9 @@
 #barra{
     display: none;
     float: right;
-
+}
+.ul__select {
+    background: rgba(0,0,0,.3);
 }
 header  {
     background: #800000;
